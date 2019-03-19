@@ -11,5 +11,5 @@ msg Success: Installed html-proofer
 jekyll build -t --config _config.yml,_dev.yml
 msg Success: Built jekyll site
 
-/usr/gem/bin/htmlproofer --assume-extension _site
+/usr/gem/bin/htmlproofer --assume-extension --verbose _site
 msg Success: Validated site with html-proofer
