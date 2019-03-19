@@ -8,7 +8,7 @@ msg() {
 gem install html-proofer
 msg Success: Installed html-proofer
 
-jekyll build -t --config _config.yml,dev.yml
+jekyll build -t --config _config.yml,_dev.yml
 msg Success: Built jekyll site
 
 /usr/gem/bin/htmlproofer --assume-extension _site
