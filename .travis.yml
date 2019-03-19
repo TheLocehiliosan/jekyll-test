@@ -1,0 +1,18 @@
+---
+sudo: false
+language: ruby
+branches:  # necessary to force builds of gh-pages:
+  only:
+    - gh-pages
+    - "/.*/"
+rvm:
+  - 2.4.1
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true  # html-proofer speed-up
+addons:
+  apt:
+    packages:
+      - libcurl4-openssl-dev
+cache: bundler
+script: test/travis-ci
