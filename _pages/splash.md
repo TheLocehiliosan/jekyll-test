@@ -11,10 +11,10 @@ title: Yet Another Dotfiles Manager
 header:
   overlay_color: "#000"
   overlay_filter: 0.7
-  overlay_image: /images/unsplash-cabin.jpg
+  overlay_image: /images/unsplash.jpg
   cta_label: Install Now
   cta_url: /docs/install
-  caption: "TODO: Change Image _Photo: [Paul Itkin](https://unsplash.com/)_"
+  caption: "_Photo: [Michael Jasmund](https://unsplash.com/photos/o51enAB_89A)_"
 excerpt: '
 
 When you live in a command line, configurations are a deeply personal thing.
