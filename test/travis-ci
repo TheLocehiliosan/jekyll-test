@@ -1,5 +1,15 @@
 #!/bin/bash
 set -e
+
+msg() {
+  echo -e "\e[1;32m$*\e[0m"
+}
+
 gem install html-proofer
+msg Success: Installed html-proofer
+
 jekyll build -t --config _config.yml,dev.yml
+msg Success: Built jekyll site
+
 /usr/gem/bin/htmlproofer --assume-extension _site
+msg Success: Validated site with html-proofer
