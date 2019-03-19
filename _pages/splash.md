@@ -14,7 +14,7 @@ header:
   overlay_image: /images/unsplash-cabin.jpg
   cta_label: Install Now
   cta_url: /docs/install
-  caption: "_Photo: [Paul Itkin](https://unsplash.com/photos/NKSGuJzExIo)_"
+  caption: "TODO: Change Image _Photo: [Paul Itkin](https://unsplash.com/photos/NKSGuJzExIo)_"
 excerpt: '
 
 When you live in a command line, configurations are a deeply personal thing.
