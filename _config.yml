@@ -42,6 +42,8 @@ include:
   - .htaccess
   - _docs
   - _pages
+  - favicon.ico
+  - images
 keep_files:
   - .git
 encoding: utf-8
