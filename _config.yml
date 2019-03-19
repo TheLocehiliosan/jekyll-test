@@ -53,6 +53,10 @@ author:
 include:
   - _docs
   - _pages
+exclude:
+  - Makefile
+  - docker-compose.yml
+  - test/*
 keep_files:
   - .git
 encoding: utf-8
