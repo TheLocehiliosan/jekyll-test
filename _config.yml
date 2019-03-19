@@ -28,11 +28,11 @@ footer:
 atom_feed: false
 # path: false
 
-# # Analytics
-# analytics:
-#   provider: google-universal
-#   google:
-#     tracking_id: UA-83783540-1
+# Analytics
+analytics:
+  provider: google-universal
+  google:
+    tracking_id: UA-83783540-1
 
 # Site Author
 author:
