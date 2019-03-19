@@ -2,9 +2,9 @@
 version: '3'
 services:
   website:
+    image: jekyll/jekyll:3.8.5
     ports:
       - 4000:4000
     volumes:
       - .:/srv/jekyll
-    command: jekyll serve --watch --incremental
-    image: jekyll/jekyll:cache
+    command: jekyll serve --config _config.yml,dev.yml -t --watch --incremental
