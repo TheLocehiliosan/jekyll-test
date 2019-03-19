@@ -14,7 +14,7 @@ header:
   overlay_image: /images/unsplash-cabin.jpg
   cta_label: Install Now
   cta_url: /docs/install
-  caption: "TODO: Change Image _Photo: [Paul Itkin](https://unsplash.com/photos/NKSGuJzExIo)_"
+  caption: "TODO: Change Image _Photo: [Paul Itkin](https://unsplash.com/)_"
 excerpt: '
 
 When you live in a command line, configurations are a deeply personal thing.
@@ -29,7 +29,7 @@ short-cuts have been worn bare by your own travels. A place you proudly call...
 '
 feature_row:
   - title: Overview
-    alt:
+    alt: Overview
     btn_class: btn--inverse
     btn_label: Discover yadm
     image_path: /images/cogs-padding.png
@@ -43,7 +43,7 @@ feature_row:
 
     '
   - title: Alternate Files
-    alt:
+    alt: Alternates
     btn_class: btn--inverse
     btn_label: Details
     image_path: /images/copy-padding.png
@@ -56,7 +56,7 @@ feature_row:
 
     '
   - title: Encryption
-    alt:
+    alt: Encryption
     btn_class: btn--inverse
     btn_label: Learn more
     image_path: /images/secret-padding.png
@@ -70,7 +70,7 @@ feature_row:
 
     '
   - title: Bootstrap
-    alt:
+    alt: Bootstrap
     btn_class: btn--inverse
     btn_label: Explore how
     image_path: /images/tasks-padding.png
@@ -83,7 +83,7 @@ feature_row:
 
     '
   - title: FAQ
-    alt:
+    alt: FAQ
     btn_class: btn--inverse
     btn_label: Get answers
     image_path: /images/question-circle-padding.png
@@ -94,7 +94,7 @@ feature_row:
 
     '
   - title: Manual
-    alt:
+    alt: Manual
     btn_class: btn--inverse
     btn_label: See man page
     image_path: /images/book-padding.png
@@ -105,7 +105,7 @@ feature_row:
 
     '
   - title: Example Dotfiles
-    alt:
+    alt: Examples
     btn_class: btn--inverse
     btn_label: View examples
     image_path: /images/keyboard-padding.png

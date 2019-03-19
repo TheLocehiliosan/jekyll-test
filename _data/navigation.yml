@@ -1,15 +1,17 @@
 ---
 main:
   - title: '
-<a href="https://github.com/TheLocehiliosan/yadm/stargazers" alt="Stars">
+<a href="https://github.com/TheLocehiliosan/yadm/stargazers">
 <img
-src="https://img.shields.io/github/stars/TheLocehiliosan/yadm.svg?style=social">
+src="https://img.shields.io/github/stars/TheLocehiliosan/yadm.svg?style=social"
+alt="Stars">
 </a>
 '
   - title: '
-<a href="https://github.com/TheLocehiliosan/yadm/watchers" alt="Watchers">
+<a href="https://github.com/TheLocehiliosan/yadm/watchers">
 <img
-src="https://img.shields.io/github/watchers/TheLocehiliosan/yadm.svg?style=social">
+src="https://img.shields.io/github/watchers/TheLocehiliosan/yadm.svg?style=social"
+alt="Watchers">
 </a>
 '
 docs:
