@@ -1,8 +1,7 @@
 ---
 env:
   - IMAGE="jekyll/jekyll:3.8.5"
-sudo: false
-language: bash
+language: minimal
 services:
   - docker
 before_install:
