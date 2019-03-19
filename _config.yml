@@ -7,7 +7,7 @@ minimal_mistakes_skin: default
 locale: en-US
 title: yadm
 title_separator: "-"
-name: yadm
+name: Tim Byrne
 description: Yet Another Dotfiles Manager
 url: https://yadm.io
 repository: TheLocehiliosan/yadm
@@ -15,6 +15,18 @@ repository: TheLocehiliosan/yadm
 # Social Sharing
 twitter:
   username: TheLocehiliosan
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/TheLocehiliosan
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: https://twitter.com/TheLocehiliosan
+
+atom_feed: false
+# path: false
 
 # # Analytics
 # analytics:
@@ -39,11 +51,8 @@ author:
 
 # Reading Files
 include:
-  - .htaccess
   - _docs
   - _pages
-  - favicon.ico
-  - images
 keep_files:
   - .git
 encoding: utf-8
