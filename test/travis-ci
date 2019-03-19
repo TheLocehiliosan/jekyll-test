@@ -1,3 +1,5 @@
 #!/bin/bash
 set -e
-bundle exec jekyll -t build
+gem install html-proofer
+jekyll build -t --config _config.yml,dev.yml
+/usr/gem/bin/htmlproofer --assume-extension _site
