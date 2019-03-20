@@ -11,5 +11,8 @@ msg Success: Installed html-proofer
 jekyll build -t --config _config.yml,_dev.yml
 msg Success: Built jekyll site
 
+jekyll serve --skip-initial-build --detach
+msg Success: Serving jekyll site locally
+
 /usr/gem/bin/htmlproofer --assume-extension --log-level=debug _site
 msg Success: Validated site with html-proofer
